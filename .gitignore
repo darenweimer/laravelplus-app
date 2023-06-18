@@ -1,0 +1,56 @@
+#-------------------------------------------------------------------------------
+# Laravel
+#-------------------------------------------------------------------------------
+
+/.fleet
+/.idea
+/.vscode
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.cache
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+docker-compose.override.yml
+npm-debug.log
+vite.server.js
+yarn-error.log
+~*
+
+#-------------------------------------------------------------------------------
+# Linux
+#-------------------------------------------------------------------------------
+
+*~
+.directory
+.fuse_hidden*
+.nfs*
+.Trash-*
+
+#-------------------------------------------------------------------------------
+# Mac OS
+#-------------------------------------------------------------------------------
+
+._*
+.apdisk
+.AppleDouble
+*.DS_Store
+.LSOverride
+
+#-------------------------------------------------------------------------------
+# Windows
+#-------------------------------------------------------------------------------
+
+*.lnk
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+$RECYCLE.BIN/
